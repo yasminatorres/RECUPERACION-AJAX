@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Enlaces a bootstrap-->
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<title>ATM</title>
+</head>
+
+<body>
+
+<form class="form-horizontal" name="frmAltaPeon" id="frmAltaPeon">
+    <fieldset>
+
+        <!-- Form Name -->
+        <legend>Alta Peón</legend>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-xs-4 control-label" for="txtIDPeon">ID de peón</label>
+            <div class="col-xs-4">
+                <input id="txtIDPeon" name="txtIDPeon" placeholder="ID de peón"
+                    class="form-control input-md" type="text">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-xs-4 control-label" for="txtNombrePeon">Nombre</label>
+            <div class="col-xs-4">
+                <input id="txtNombrePeon" name="txtNombrePeon" placeholder="Nombre"
+                    class="form-control input-md" type="text">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-xs-4 control-label" for="txtApellidoPeon">Apellido</label>
+            <div class="col-xs-4">
+                <input id="txtApellidoPeon" name="txtApellidoPeon" placeholder="Apellido"
+                    class="form-control input-md" type="text">
+
+            </div>
+        </div>	
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-xs-4 control-label" for="txtTelefonoPeon">Telefono</label>
+            <div class="col-xs-4">
+                <input id="txtTelefonoPeon" name="txtTelefonoPeon" placeholder="Telefono"
+                    class="form-control input-md" type="text">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-xs-4 control-label" for="txtEmail">Email</label>
+            <div class="col-xs-4">
+                <input id="txtEmail" name="txtEmail" placeholder="Email"
+                    class="form-control input-md" type="text">
+
+            </div>
+        </div>
+        
+        <!-- Select input-->
+        <div class="form-group">
+            <label class="col-xs-4 control-label" for="txtCategoria">Categoría</label>
+            <div class="col-xs-4">
+                <select class="form-control" name="txtCategoria" id="txtCategoria">
+
+                </select>
+            </div>
+        </div>
+
+        <!-- Button -->
+        <div class="form-group">
+            <label class="col-xs-4 control-label" for="btnAceptarAltaPeon"></label>
+            <div class="col-xs-4">
+                <input type="button" id="btnAceptarAltaPeon" name="btnAceptarAltaPeon" class="btn btn-warning" value="Aceptar" />
+            </div>
+        </div>
+
+    </fieldset>
+</form>
+</body>
+
+</html>
